@@ -1,1 +1,1 @@
-# [My-Results](https://shivashirsath.github.io/My-Results/)
+# [My-Results](https://ShivaShirsath.github.io/My-Results/)
