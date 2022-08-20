@@ -1,4 +1,4 @@
-# [►](https://ShivaShirsath.github.io/My-Results)
+# [►](https://ShivaShirsath.github.io/Results)
 
 $project_name$
 
