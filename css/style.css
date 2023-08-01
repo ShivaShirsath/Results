@@ -8,10 +8,17 @@
 div {
   display: flex;
   flex-direction: column;
-  /* row row-reverse column-reverse */
   align-items: stretch;
   justify-content: space-around;
   min-height: 100vh; min-height: 100dvh;
   height: 100vh; height: 100dvh;
   max-height: 100vh; max-height: 100dvh;
+}
+
+details[open]+details[close]{
+  display: none;
+}
+
+details[close]+details[close]{
+  display: block;
 }
