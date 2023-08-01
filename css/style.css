@@ -21,15 +21,13 @@ a {
 }
 
 details{
-  display: flex;
-  flex-direction: column;
-  align-items: stretch;
+  align-items: center;
 }
 
-details[open]+details{
+details[open] + details{
   display: none;
 }
 
-details[close]+details{
+details[close] + details{
   display: block;
 }
