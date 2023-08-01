@@ -5,29 +5,16 @@
   font-size: 10dvmin;
 }
 
-div {
+body {
   display: flex;
   flex-direction: column;
   align-items: stretch;
   justify-content: space-around;
-  min-height: 100vh; min-height: 100dvh;
-  height: 100vh; height: 100dvh;
-  max-height: 100vh; max-height: 100dvh;
+  position: fixed;
+  inset: 0;
 }
 
 a {
   font-size: 7.5vmin;
   font-size: 7.5dvmin;
-}
-
-details{
-  align-items: center;
-}
-
-details[open] + details{
-  display: none;
-}
-
-details[close] + details{
-  display: block;
 }
