@@ -1,8 +1,8 @@
 * {
   padding: 0 0;
   margin: 0 0;
-  font-size: 10vmin;
-  font-size: 10dvmin;
+  font-size: 7.5vmin;
+  font-size: 7.5dvmin;
 }
 
 div {
@@ -11,9 +11,7 @@ div {
   /* row row-reverse column-reverse */
   align-items: stretch;
   justify-content: space-around;
-  height: 100vh;
-}
-
-h1 {
-  text-align: center;
+  min-height: 100vh; min-height: 100dvh;
+  height: 100vh; height: 100dvh;
+  max-height: 100vh; max-height: 100dvh;
 }
