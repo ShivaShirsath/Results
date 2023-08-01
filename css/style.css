@@ -14,6 +14,7 @@ div {
   height: 100vh; height: 100dvh;
   max-height: 100vh; max-height: 100dvh;
 }
+
 a {
   font-size: 7.5vmin;
   font-size: 7.5dvmin;
@@ -25,10 +26,10 @@ details{
   align-items: stretch;
 }
 
-details[open]+details[close]{
+details[open]+details{
   display: none;
 }
 
-details[close]+details[close]{
+details[close]+details{
   display: block;
 }
