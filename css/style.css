@@ -1,8 +1,8 @@
 * {
   padding: 0 0;
   margin: 0 0;
-  font-size: 7.5vmin;
-  font-size: 7.5dvmin;
+  font-size: 10vmin;
+  font-size: 10dvmin;
 }
 
 div {
@@ -13,6 +13,16 @@ div {
   min-height: 100vh; min-height: 100dvh;
   height: 100vh; height: 100dvh;
   max-height: 100vh; max-height: 100dvh;
+}
+a {
+  font-size: 7.5vmin;
+  font-size: 7.5dvmin;
+}
+
+details{
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
 }
 
 details[open]+details[close]{
